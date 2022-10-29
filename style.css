@@ -350,6 +350,11 @@
    
    border: 3px;
 }
+
+.aabo1 img:hover{
+   box-shadow: 2px 3px 4px black; 
+
+}
 /* 
 .aabo1  h3,p, {
    text-align: center;
@@ -371,7 +376,9 @@
     border: none;
     border-radius: 10px;
     margin-top: 20px;
-   background-color: rgb(135, 143, 135);
+   /* background-color: rgb(135, 143, 135); */
+   background-color: rgb(6, 6, 19);
+   color: white;
 }
 
 .aabo-contain  h3{
@@ -395,7 +402,7 @@
    height: 300px;
    width: 100%;
 
-   margin-top: 20px;
+   margin-top: 60px;
 
 }
 .fo1{
