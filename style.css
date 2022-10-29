@@ -241,6 +241,7 @@
 
 .main-yar h2, p {
    /* margin-left: 100px; */
+   color: white;
 
 }
 
@@ -334,6 +335,10 @@
 
 }
 
+.abaaga-ween h2 {
+   color: white
+}
+
 .aabo{
    margin-top: 30px;
    margin-left: 100px;
@@ -416,6 +421,13 @@ ul li{
    color: whitesmoke;
    text-align: start;
 }
+
+.footer h3 {
+   color: white;
+   margin-bottom: 25px
+}
+
+
 .members ul li {
    font-size: 22px;
    padding: 3px;
@@ -455,7 +467,8 @@ ul li{
 }
 .footer P{
    text-align: center;
-   margin-top: 60px;
+   margin-bottom: 20px;
+   margin-top: 40px;
    font-size: 18px;
 }
 
