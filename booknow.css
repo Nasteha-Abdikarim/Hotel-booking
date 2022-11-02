@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family:sans-serif;
 }
+
+
 .hero{
     display: flex;
     width: 100%;
@@ -14,13 +16,15 @@ body{
 .left-col{
     flex-basis: 30%;
     height: 500px;
-    background-color: #e80;
+    background-color: rgb(99, 24, 24); 
+    color: white;
     
 }
 .right-col{
     flex-basis: 65%;
     /* height: 100%; */
-    background:darkcyan ;
+    background-color: rgb(13, 13, 40); 
+    color: white;
 }
 .form label :placeholder-shown{
     padding-left: 15px;
@@ -41,8 +45,18 @@ body{
 .right-col h1{
     text-align: center;
 }
-.f1{
+
+.h5 input{
+    width: 590px;
+    height: 30px;
     display: flex;
+
+}
+
+
+.f1f input{
+    /* width: 850px;
+    display: flex; */
     /* justify-content: space-evenly; */
 }
 .f3{
@@ -55,7 +69,7 @@ body{
   
 }
 .f7 input{
-    width: 85px;
+    width: 65px;
    
 }
 .f7{
@@ -65,7 +79,8 @@ body{
     margin-left:20px ;
 }
 .f6 input{
-    width: 85px;
+    width: 65px;
+    
 }
 .f5{
     margin-left: 20px;
@@ -97,17 +112,57 @@ body{
 }
 .btn{
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 230px;
+    justify-content: center;
 
 
 
 }
 .btn button{
-    width: 77%;
+    width:250px;
     height: 35px;
-    background-color: hsl(60, 100%, 50%);
+    color: white;
+    background-color: rgb(99, 24, 24); 
+    /* background-color: hsl(60, 100%, 50%); */
     border: none;
-    border-radius: 2px;
+    border-radius: 10px;
     font-weight: bold;
     font-size: 18px;
+    align-items: center;
+}
+
+.btn button:hover{
+
+    background-color: rgb(50, 41, 30);
+}
+@media screen and (max-width:600px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    input{
+        width: 20%;
+    }
+
+    .h5 input {
+        width: 250px;
+    }
+    .phone input{
+        width: 50%;
+    }
+
+    .f7 input{
+        width: 30px;
+       
+    }
+
+    .f6 input{
+        width: 30px;
+        
+    }
+    .f5 input{
+        width:30px ;
+        
+    }
 }

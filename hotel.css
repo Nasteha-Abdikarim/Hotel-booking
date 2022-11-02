@@ -84,7 +84,9 @@ body {
   height: 60px;
   border-radius: 40px;
   border: 0;
-  background-color: rgb(170, 141, 105);
+  background-color: rgb(96, 29, 29);
+  color: white;
+  /* background-color: rgb(170, 141, 105); */
   box-shadow: 1px 1px 5px rgb(39, 37, 37);
 }
 
@@ -113,7 +115,9 @@ body {
   width: 100px;
   height: 40px;
   margin-left: 420px;
-  background-color: rgb(170, 141, 105);
+  color: white;
+  background-color: rgb(13, 13, 40); 
+  /* background-color: rgb(170, 141, 105); */
   border: 0;
   margin-top: 20px;
   box-shadow: 1px 1px 5px rgb(39, 37, 37);
@@ -137,7 +141,7 @@ a:hover {
 }
 
 .buu button:hover {
-  color: white;
+  background-color:rgb(99, 24, 24);
   font-weight: bold;
 }
 

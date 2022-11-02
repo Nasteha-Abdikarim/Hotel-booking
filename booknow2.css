@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(216, 243, 243);
+}
+
+.booking {
+    display: grid;
+    grid-template-columns: 300px  300px;
+    justify-content: center;
+
+}
+
+
+.grid1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: 2px 1px 1px 1px black;
+    background-color: rgb(96, 29, 29);
+
+}
+
+.grid1 img {
+    padding-top: 200px;
+    width: 350px;
+}
+
+.grid2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: 2px 1px 1px 1px black;
+    background-color: rgb(13, 13, 40); 
+    color: white;
+    padding-right: 120px;
+    padding-left: 50px; 
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.inp1 input{
+    width: 200px;
+    height: 30px;
+}

@@ -48,8 +48,15 @@
     grid-template-columns: 400px;
     gap: 20px;
   }
-  .about{
+  /* .about2 {
     display: grid;
     grid-template-columns: 400px;
+  } */
+
+  about4-img img {
+
+    width: 200px;
   }
+
+    
 }
