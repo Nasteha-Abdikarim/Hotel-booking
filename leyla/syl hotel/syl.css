@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sheader{
+    background-color: rgb(77, 71, 71);
+    background-image: url(./image/back.jpg);
+   background-blend-mode:difference;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.slogo h1{
+    font-size: 40px;
+    color: whitesmoke;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.snav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+ul li{
+    display: inline-block;
+    font-size: 22px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+ul li a:hover{
+    color:  burlywood;
+}
+.sbtn button{
+    width: 90px;
+    background-color: rgb(209, 191, 24);
+    border: none;
+    height: 20px;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+.sshowcase{
+    text-align: center;
+    margin-top: 100px;
+    color: whitesmoke;
+}
+.sshowcase h1{
+    font-size: 90px;
+}
+.sshowcase p{
+    line-height: 25px;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sshowcase button{
+    margin-top: 30px;
+    width: 90px;
+    background-color: rgb(209, 191, 24);
+    border: none;
+    height: 20px;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+.sshowcase button:hover{
+    background-color: burlywood;
+}
+.sservice{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 400px 400px ;
+    grid-template-rows: 300px 300px;
+    align-items: center;
+    justify-content: center;
+}
+.sservices h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sservice {
+    width: 100%;
+    height: 100%;
+
+}
+.sser1 img{
+    width: 400px ;
+    height: 300px;
+}
+.sser2{
+    margin-left: 20px;
+}
+.sicons{
+    color: rgb(247, 212, 19);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.sser2 h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+.sser2 p{
+    font-size: 18px;
+}
+.sser2 button{
+    margin-top: 30px;
+    width: 90px;
+    background-color: rgb(209, 191, 24);
+    border: none;
+    height: 20px;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+.sser2 button:hover{
+
+    background-color: burlywood;
+}
+
+.sbtn2{
+    text-align: center;
+    margin-left: 900px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: underline;
+    border: none;
+    margin-top: 20px;
+    
+}
+.sfooter{
+    background-color: rgb(58, 35, 4);
+    margin-top: 100px;
+}
+.sfooter h2{
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.sfoot{
+    display: grid;
+    /* padding-left: 30px; */
+    justify-content: space-around;
+    grid-template-columns: 400px 400px 400px;
+}
+.sfooter1 ul li{
+    display: block;
+    padding: 5px;
+    font-size: 18px;
+}
+.sfooter p{
+    color: white;
+    padding-top: 15px;
+}
+.sf4{
+    font-size: 30px;
+    color: whitesmoke;
+}
+span{
+    color: rgb(236, 205, 27);
+}
+
+
+@media screen and (max-width: 600px){
+    .snav-bar{
+        display: flex;
+    }
+    .sservice{
+        display: grid;
+        grid-template-columns: 400px;
+    }
+    .sfoot{
+        display: grid;
+        grid-template-columns: 400px;
+        height: 100%;
+    }
+}

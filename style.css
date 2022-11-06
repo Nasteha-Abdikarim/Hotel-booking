@@ -50,7 +50,7 @@
 }
 
 
-.bbutn1 button{
+.bbutn11 button{
    color: white;
    background-color: rgb(96, 29, 29);
    /* background-color: rgb(13, 13, 40); */
@@ -64,7 +64,7 @@
    padding-left: 20px;
 }
 
-.bbutn1 button:hover{
+.bbutn11 button:hover{
    background-color: rgb(150, 107, 116);
 }
 
@@ -473,10 +473,10 @@
 
 
 .footer{
+     
    
    background-color: rgb(13, 13, 40); 
-   /* background-color: rgb(6, 6, 19); */
-    /* background-color: rgba(0, 0, 0, 0.39); */
+ 
    height: 300px;
    width: 100%;
 
@@ -487,10 +487,7 @@
 
 }
 .fo1{
-   /* display: flex;
-   justify-content: space-around;
-   padding-top: 30px;
-   text-align: justify; */
+   
    display: grid;
    grid-template-columns: 300px 300px 300px ;
    gap: 20px;
@@ -551,15 +548,12 @@
 
 .la2 {
    height: 40px;
-   width: 300px;
+   /* width: 100%; */
+    width: 300px; 
    border: none;
-   /* background-color: brown;
-   color: white; */
-
    background-color: rgb(96, 29, 29);
    color: white;
 
-   font-size: 18px;
 }
 
 
@@ -586,7 +580,7 @@
    font-size: 25px;
    color: white;
    padding: 4px;
-   /* margin-right: 90px; */
+   
 }
 .icons{
    margin-left: 20px;

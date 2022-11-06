@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lHeader{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 60px; */
+    position: fixed;
+    background-color: white;
+    width: 100%;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.llogo img{
+    width: 300px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+ul{
+    margin-top: 20px;
+}
+ul li{
+    /* margin-top: 20px; */
+    display: inline-block;
+
+
+}
+ul li a{
+    color: rgb(24, 180, 231);
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    /* margin-top: 50px; */
+   
+}
+a:hover{
+    color: darksalmon;
+    text-decoration: underline;
+}
+.licons{
+    color: rgb(24, 180, 231);
+    padding: 30px;
+    font-size: 30px;
+ 
+}
+.lbtn{
+    width: 120px;
+    height: 35px;
+    color: rgb(24, 180, 231);
+  border: none;
+  /* margin-bottom: 30px; */
+  background-color: white;
+  margin-top: 30px;
+  font-size: 22px;
+
+}
+.lbtn:hover{
+    background-color:rgb(24, 180, 231) ;
+    color: white;
+    border-radius: 100px;
+    width: 120px;
+    height: 35px;
+    margin-right: 30px;
+
+}
+/* showcase */
+
+.lshowcase img{
+     height: 500px;
+     width: 100%;
+}
+.lshowcase-text h1{
+    margin-top: 100px;
+    font-size: 80px;
+    text-align: center;
+}
+.lshow-image img{
+    width: 100%;
+    margin-top: 100px;
+    height: 600px;
+}
+.lqoral h1{
+    margin-top: 100px;
+    font-size: 68px;
+    text-align: center;
+
+}
+.lmain {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+.lmain img{
+    padding: 20px;
+}
+.lmain-image{
+    align-items: center;
+}
+.lmain-image h1{
+    text-align: center;
+    color: rgb(24, 180, 231);
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.lmain-image p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+}
+button{
+    text-align: center;
+    /* justify-content: center; */
+
+}
+.lbtn2{
+    border: none;
+    color: rgb(24, 180, 231);
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 110px;
+    height: 50px;
+    background-color: white;
+
+
+}
+.lbtn2:hover{
+    background-color:rgb(24, 180, 231) ;
+    color: white;
+    border-radius: 100px;
+    width: 110px;
+    height: 50px;
+    /* margin-right: 30px; */
+}
+/* gallery */
+
+.ltext h1{
+    font-size: 50px;
+    color: darkslategrey;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.lgellary{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 500px 500px 500px ;
+    grid-template-rows: 400px 400px 400px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.lgellary img{
+    width: 100%;
+    height: 100%;
+}
+.lgellary1 img{
+    width: 100%;
+    height: 100%;
+}
+.lgellary1 img:hover{
+    box-shadow: 2px 2px 3px;
+
+}
+/* ROOMS */
+.lroompart{
+    text-align: center;
+    margin-top: 100px;
+}
+.lroompart h2{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.lroompart p{
+    font-size: 18px;
+    line-height: 25px;
+    
+}
+.lrooms{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:  400px 400px;
+    grid-template-rows: 400px ;
+   column-gap: 30px;
+   row-gap: 30px;
+    justify-content:space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.lrooms img{
+    max-width: 500px;
+    min-height: 400px;
+ 
+}
+.lrooms img:hover{
+
+    box-shadow: 1px 1px 2px;
+}
+.lroom2 h3{
+    font-size: 30px;
+    color: rgb(24, 180, 231);
+    margin-bottom: 50px;
+
+}
+.lroom2 p{
+    line-height: 35px;
+    padding: 5px;
+}
+
+.lfooter{
+    background-color: rgb(24, 180, 231);
+    height: 300px;
+    width: 100%;
+}
+.lfo1{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: justify;
+}
+.lnavigation ul li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+.lnavigation ul li{
+    list-style: none;
+    display: block;
+}
+.lnavigation ul li a:hover{
+    color: darkgoldenrod;
+}
+.lnavigation ul li a{
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: start;
+}
+.lfolow ul li a{
+    color: whitesmoke;
+    text-align: center;
+    padding: 4px;
+
+}
+.lfolow ul li a:hover{
+    color: darkgoldenrod;
+}
+.lfolow ul li{
+    display: block;
+}
+
+.linput1 input{
+height: 35px;
+width: 200px;
+
+
+}
+.linput1 input:hover{
+
+    background-color: darkgoldenrod;
+}
+@media screen and (max-width: 600px){
+
+    /* .Header{
+        display: flex;
+        width: 100%;
+        height: 20%;
+        display: inline-block;
+        justify-content: space-evenly;
+
+    }
+    ul li a{
+        font-size: 18px;
+        padding: 0;
+    }
+    .Header .icons .btn{
+        display: flex;
+    }
+    .icons{
+        font-size: 18px;
+    } */
+    .lshowcase img{
+        justify-content: center;
+    }
+    .lshowcase-text h1{
+        font-size: 22px;
+        text-align: center;
+        margin-right: 20px;
+
+    }
+    .lqoral h1{
+        margin-right: 20px;
+        font-size: 22px;
+    }
+    .lmain{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* width: 30%; */
+        margin: 20px;
+    }
+    .lmain-image img{
+        align-items: center;
+        width: 100%;
+    }
+    .lbtn2{
+        text-align: center;
+    }
+    .lgellary{
+        display: grid;
+        grid-template-columns: 350px;
+        margin-right: 15px;
+    }
+  
+    .lrooms{
+        display: grid;
+        grid-template-columns: 350px;
+        margin-right: 25px;
+    }
+
+    .lfo1{
+        display: grid;
+        grid-template-columns: 400px;
+  
+    }
+    .linput1 input{
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .lfooter{
+        justify-content: center;
+        height: 100%;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        width: 100%;
+    }    
+
+}
+

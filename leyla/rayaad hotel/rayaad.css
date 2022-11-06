@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.rlogo img{
+    width: 190px;
+    height: 90px;
+    padding-bottom: 40px;
+}
+.rlogo{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    padding: 20px;
+    display: inline-block;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+ul li a:hover{
+    color: rgb(65, 63, 34);
+}
+
+.rheader{
+    background-image: url("https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 500px;
+    height: 570px;
+}
+.rAbout h1{
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.rswro{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rswr1 img{
+    width: 100%;
+    height: 100%;
+  
+}
+.rswr1 img:hover{
+    box-shadow: 0.5px 1px 3px;
+}
+.rmain h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.rswr1{
+background-color: rgb(228, 226, 226);
+}
+
+.rmgc{
+    display: flex;
+   
+    padding-top: 10px;
+    font-size: 20px;
+}
+.rlocation{
+    margin-left: 70px;
+    font-size: 18px;
+}
+.rflxd{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.rflxd button{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border: solid none;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(228, 226, 226);
+    transition-property: font-size; 
+    transition-duration: 0.5s;
+
+
+}
+.rflxd button:hover{
+    background-color: rgb(64, 49, 29);
+    transform: scale(1.4);
+
+
+}
+.rswr1 h3{
+    padding-left: 40px;
+}
+
+.rswro2{
+    margin-left: 20px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    margin-bottom: 20px;  
+    margin-left: 100px;
+    
+}
+.rcontainer h1{
+
+    font-size: 50px;
+    padding-left: 300px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.rlast{
+    margin-left: 100px;
+    /* justify-content: center; */
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 150px;
+}
+.rcontect h1{
+    padding-left: 200px;
+    margin-top: 100px;
+    font-size: 60px;
+
+}
+.rform{
+    width: 400px;
+    height: 550px;
+     background-color: rgb(65, 63, 34);
+    margin-top: 40px;
+
+}
+input{
+    margin-top: 10px;
+    padding-left: 15px;
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+}
+label{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.rswr img{
+    margin-top: 40px;
+    height: 540px;
+    width: 540px;
+}
+
+.rAbout{
+    display: grid;
+    
+    margin-top: 40px;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.rAbout h1{
+    text-align: center;
+}
+.rAbout p{
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.rAbout img{
+ height: 100px;
+ width: 400px;
+    
+}
+/* FOOTER */
+.rfooter{
+    margin-top: 300px;
+    background-color: rgb(65, 63, 34);
+    height: 200px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-around;
+}
+.rfoter1{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.rfoter1 h2{
+    font-size: 27px;
+
+}
+.rfoter1 h5{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.rfoter1 p{
+    text-align: justify;
+    margin-left: 100px;
+}
+.rfooter2{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.rf3{
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    padding: 6px;
+}
+.rfooter2 h2{
+    font-size: 35px;
+}
+.rfooter2 h5{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.rfooter3{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.rfooter3 h5{
+
+    margin-top: 10px;
+    font-size: 18px;
+}
+ .rEMAIL input{
+    /* padding-top: 30px; */
+    width: 300px;
+    color: black;
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+@media screen and (max-width: 600px){
+    .rswro{
+        display: grid;
+        grid-template-columns: 400px;
+    }
+    .rswro2{
+        display: grid;
+        grid-template-columns: 400px;
+    }
+    .rlast{
+        display: grid;
+        grid-template-columns: 300px;
+    }
+    .rswr{
+        width: 300px;
+        height: 300px;
+        margin-right: 150px;
+    }
+    .rfooter{
+        display: grid;
+        grid-template-columns: 400px;
+        height: 100%;
+    }
+    
+}

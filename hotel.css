@@ -3,12 +3,74 @@
   padding: 0;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+
+
+
+
+.container {
+  position: relative;
 }
 
+/* .nav{
+  display: flex;
+  justify-content: space-between;
+ 
+} */
+/* .he1{display: flex;}
+
+.he1 h5{
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+}
+.he2{
+  display: flex;
+} */
+
+/* .he2 ul li {
+  display: inline-block; */
+  /* margin-top: 5px; */
+/* } */
+/* .he2 ul li a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 22px;
+  color: whitesmoke; */
+  /* margin-top: 5px; */
+/* } */
+
+/* .he2 ul li a:hover{
+  color: chocolate;
+} */
+
+/* .he1-image img {
+  width: 90px;
+  height: 70px;
+  margin-top: 5px;
+} */
+
+
+/* .bbutn1 button{
+  color: white;
+  background-color: rgb(96, 29, 29); */
+  /* background-color: rgb(13, 13, 40); */
+  /* background-color: rgb(135, 143, 135); */
+  /* border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  width: 120px;
+  height: 35px;
+  padding-left: 20px;
+} */
+
+/* .bbutn1 button:hover{
+  background-color: rgb(150, 107, 116);
+} */
+
+
 .hotels {
+  position: relative;
   background-image: url(./images/hotel4.jpeg);
   background-repeat: no-repeat;
   background-size: 100% 500px;
@@ -45,15 +107,20 @@ body {
 .location-icon P {
   padding-left: 10px;
 }
-
-.hotel-text h4 {
+.hotel-text{
   margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.hotel-text a {
+  padding-top: 30px;
   margin-bottom: 10px;
   font-family: sans-serif;
   color: rgb(248, 154, 46);
+  text-decoration: none;
 }
 
-.hotel-text h4:hover {
+.hotel-text a:hover {
   color: rgb(59, 45, 26);
 }
 
@@ -160,6 +227,25 @@ button {
   display: flex;
   justify-content: space-evenly;
 }
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
   .big {

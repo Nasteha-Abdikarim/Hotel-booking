@@ -58,7 +58,7 @@ span {
   justify-content: center;
   margin-top: 20px;
 
-  grid-template-columns: 430px 430px 430px;
+  grid-template-columns: 400px 400px 4000px;
   grid-template-rows: 320px 320px;
 
   margin-right: 20px;
